@@ -3,7 +3,7 @@ Objective
 
 This task demonstrates the use of basic SELECT queries in SQL, including selecting all records, specific columns, filtering data using WHERE, AND, OR, LIKE, BETWEEN, and IN operators, sorting data using ORDER BY, limiting result rows, and retrieving distinct values.
 
-Database Schema
+Database store_db
 
 The database schema consists of a single table: `products`.
 
