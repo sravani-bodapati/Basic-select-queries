@@ -1,32 +1,44 @@
 # Basic-select-queries
-
-Basic SELECT Queries – Student Management System
-
 Objective
 
-Practice retrieving data using SQL `SELECT` queries from one or more tables using filtering, sorting, and projection techniques.
+This task demonstrates the use of basic SELECT queries in SQL, including selecting all records, specific columns, filtering data using WHERE, AND, OR, LIKE, BETWEEN, and IN operators, sorting data using ORDER BY, limiting result rows, and retrieving distinct values.
 
-Tools Used
+Database Schema
 
-- MySQL Workbench
-- SQL (Structured Query Language)
+The database schema consists of a single table: `products`.
 
-Tables Involved
+Products Table
+- `product_id` (primary key)
+- `product_name`
+- `category`
+- `price`
+- `stock`
 
-- `departments`
-- `faculty`
-- `students`
-- `courses`
-- `enrollments`
-- `marks`
+SQL Queries
 
-SQL Concepts Practiced
+The task involves the following SQL queries:
 
-- `SELECT` (specific columns)
-- `WHERE`, `AND`, `OR`
-- `LIKE`, `BETWEEN`
-- `ORDER BY ASC/DESC`
-- `LIMIT`
-- `IN`
-- `DISTINCT`
-- Column Aliasing with `AS
+- *Select all records*
+- *Select specific columns*
+- *WHERE condition*
+- *WHERE with AND*
+- *WHERE with OR*
+- *LIKE operator*
+- *BETWEEN operator*
+- *ORDER BY (ascending)*
+- *ORDER BY (descending)*
+- *LIMIT result rows*
+- *DISTINCT values*
+- *IN operator*
+- *Aliasing columns*
+
+Learning Outcome
+
+This task helps you understand how to:
+
+- Use basic SELECT queries to retrieve data from a database
+- Filter data using various operators
+- Sort data using ORDER BY
+- Limit result rows
+- Retrieve distinct values
+- Alias columns for better readability
